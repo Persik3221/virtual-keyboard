@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.On {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.Off {
+  display: none;
+}
+
+.key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+  border-radius: 20%;
+  background-color: #ed72ac;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #aee1f9;
+  border: 0;
+}
+
+.key:hover {
+  background-color: #f39fc7;
+}
+
+.key span {
+  cursor: default;
+}
+
+.Backslash {
+  width: 110px;
+}
+
+.Backspace {
+  width: 160px;
+}
+
+.Tab {
+  width: 100px;
+}
+
+.CapsLock {
+  position: relative;
+  width: 120px;
+  font-size: 19px;
+}
+
+.caps_check {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 5px;
+  height: 5px;
+  background-color: grey;
+}
+
+.active {
+  background-color: greenyellow;
+}
+
+.ShiftRight {
+  width: 105px;
+}
+
+.ShiftLeft {
+  width: 140px;
+}
+
+.Enter {
+  width: 130px;
+  text-transform: uppercase;
+}
+
+.Space {
+  border-radius: 10%;
+  width: 450px;
+}
+
+.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#res {
+  display: block;
+  width: 700px;
+  height: 300px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.keyboard {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.selected {
+  border-radius: 50%;
+  -webkit-animation: down 0.09s linear;
+          animation: down 0.09s linear;
+  background-color: #f39fc7;
+}
+
+@-webkit-keyframes down {
+  0% {
+    border-radius: 20%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+
+@keyframes down {
+  0% {
+    border-radius: 20%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
