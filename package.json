@@ -1,0 +1,23 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index1.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./index1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Persik3221/virtual-keyboard.git"
+  },
+  "author": "Persik3221",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Persik3221/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Persik3221/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0"
+  }
+}
